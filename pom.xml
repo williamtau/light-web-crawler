@@ -5,10 +5,50 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>com.williamtau</groupId>
-    <artifactId>web-crawl</artifactId>
-    <version>1.0-SNAPSHOT</version>
+    <artifactId>light-web-crawler</artifactId>
+    <version>0.0.1-alpha</version>
+    <packaging>jar</packaging>
+
+    <developers>
+        <developer>
+            <id>williamtau</id>
+            <name>williamtau</name>
+            <email>228970175@qq.com</email>
+        </developer>
+    </developers>
 
     <dependencies>
+        <dependency>
+            <groupId>org.apache.commons</groupId>
+            <artifactId>commons-lang3</artifactId>
+            <version>3.11</version>
+        </dependency>
 
+        <dependency>
+            <groupId>org.seleniumhq.selenium</groupId>
+            <artifactId>selenium-java</artifactId>
+            <version>3.141.59</version>
+        </dependency>
+
+        <!--Junit5 start-->
+        <dependency>
+            <groupId>org.junit.jupiter</groupId>
+            <artifactId>junit-jupiter</artifactId>
+            <version>5.7.0</version>
+            <scope>test</scope>
+        </dependency>
+        <dependency>
+            <groupId>org.junit.jupiter</groupId>
+            <artifactId>junit-jupiter-api</artifactId>
+            <version>5.7.0</version>
+            <scope>test</scope>
+        </dependency>
+        <dependency>
+            <groupId>org.junit.jupiter</groupId>
+            <artifactId>junit-jupiter-params</artifactId>
+            <version>5.7.0</version>
+            <scope>test</scope>
+        </dependency>
+        <!--Junit5 end-->
     </dependencies>
 </project>
