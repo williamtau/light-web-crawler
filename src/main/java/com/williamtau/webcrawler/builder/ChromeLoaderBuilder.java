@@ -52,7 +52,7 @@ public class ChromeLoaderBuilder extends AbstractLoaderBuilder<ChromeLoaderBuild
     protected void initialize() {
         File webDriverFile = new File(configuration.getDriverPath());
         if(!webDriverFile.exists()){
-            throw new LoaderBuilderException("Web driver file is not exist. Web driver path is "+configuration.getDriverPath());
+            throw new LoaderBuilderException("Webdriver file is not exist. Webdriver file path is "+configuration.getDriverPath());
         }
         System.setProperty("webdriver.chrome.driver", webDriverFile.getAbsolutePath());
 
